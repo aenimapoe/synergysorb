@@ -221,7 +221,7 @@ header a.logo img {
     height: 90px;
     position: fixed;
     z-index: 999;
-    background: #98eae4;
+    background: #0099FF;
     -webkit-animation-name: animationFade;
     animation-name: animationFade;
     -webkit-animation-duration: 1s;
@@ -296,7 +296,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     position: fixed;
     right: 0;
     top: 0;
-    background: #98eae4;
+    background: #0099FF;
     z-index: 9999;
     height: 100%;
     -webkit-transform: translate3d(100%, 0, 0);
@@ -630,7 +630,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 }
 
 .bg-yellow{
-    background-color: #98eae4;
+    background-color: #0099FF;
 }
 
 .image-banner{
@@ -738,7 +738,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     font-size: 24px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    color: #98eae4;
+    color: #0099FF;
     text-align: center;
 }
 
@@ -788,11 +788,11 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 
 .about .about-card:hover span{
     transform: translateY(-15px);
-    color: #98eae4;
+    color: #0099FF;
 }
 
 .about .about-card:hover .about-heading{
-    color: #98eae4;
+    color: #0099FF;
 }
 
 /* ===================================
