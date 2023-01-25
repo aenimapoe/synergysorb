@@ -630,7 +630,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 }
 
 .bg-yellow{
-    background-color: #0099FF;
+    background-color: #FFFFFF;
 }
 
 .image-banner{
@@ -654,7 +654,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 }
 
 .heading-area .heading span{
-    color: #ffffff;
+    color: #0099FF;
 }
 
 .heading-area .text{
@@ -1495,9 +1495,9 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 .standalone-detail .heading{
     margin-bottom: 20px;
     margin-top: 20px;
-    font-size: 56px;
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
     color: #000000;
 
 }
