@@ -38,6 +38,23 @@
     Google font
 ====================================== */
 
+.btn.btn-pink {background: #0099FF; border-color: #0099FF; color: #000000}
+.btn.btn-green {background: #FFFFFF; border-color: #FFFFFF; color: #000000}
+.btn.btn-hvr-blue:hover, .btn.btn-hvr-blue:focus{color: #0099FF;border-color: #0099FF;background: transparent !important;}
+.btn.btn-hvr-green:hover, .btn.btn-hvr-green:focus{color: #28a745;border-color: #28a745;background: transparent !important;}
+.btn.btn-hvr-blue .btn-hvr-effect {background: #FFFFFF;border-color: #FFFFFF}
+
+.btn-hvr-setting {z-index: -1;position: absolute;left: 0;top: 0;width: 100%;height: 100%;border-radius: 50px;}
+.btn-hvr-setting-inner {position: relative;display: block;height: 100%;list-style: none;padding: 0;margin: 0}
+.btn-hvr-effect {position: absolute;top: -5px;width: 25%;height: 100%;border-radius: 100%;-webkit-transform: translate3d(0, 150%, 0) scale(1.7); transform: translate3d(0, 150%, 0) scale(1.7); -webkit-transition: -webkit-transform 0.45s;
+    transition: -webkit-transform 0.45s; transition: transform 0.45s !important;background: #ffffff;border-color: #ffffff;}
+.btn-hvr-effect:nth-child(1) {left: 0;-webkit-transition-delay: 0s; transition-delay: 0s !important;}
+.btn-hvr-effect:nth-child(2) {left: 30%;-webkit-transition-delay: 0.08s; transition-delay: 0.08s !important;}
+.btn-hvr-effect:nth-child(3) {left: 60%;-webkit-transition-delay: 0.16s; transition-delay: 0.16s !important;}
+.btn-hvr-effect:nth-child(4) {left: 90%;-webkit-transition-delay: 0.24s; transition-delay: 0.24s !important;}
+.btn-hvr-setting:hover .btn-hvr-effect, .btn:hover .btn-hvr-effect, .btn:active .btn-hvr-effect, .btn:focus .btn-hvr-effect {-webkit-transform: translateZ(0) scale(1.7); transform: translateZ(0) scale(1.7) !important;}
+.btn-hvr-grey .btn-hvr-effect {background: #FFFFFF;}
+
  /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: #eee;
