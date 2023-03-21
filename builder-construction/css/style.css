@@ -646,6 +646,18 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     padding-bottom: 4.5rem;
 }
 
+.banner-sec2{
+    padding: 15rem 0;
+}
+
+.bg-banner{
+	background-image: url("banner-img2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
 .bg-yellow{
     background-color: #FFFFFF;
 }
